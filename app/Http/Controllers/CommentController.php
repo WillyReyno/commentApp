@@ -5,10 +5,10 @@ use App\Http\Controllers\Controller;
 use App\Models\Comment;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
 
 class CommentController extends Controller {
-
 	/**
 	 * Display a listing of the resource.
 	 *

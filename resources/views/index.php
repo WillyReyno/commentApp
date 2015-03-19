@@ -41,6 +41,8 @@
             <input type="text" class="form-control input-lg" name="comment" ng-model="commentData.text" placeholder="Your text">
         </div>
 
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
         <div class="form-group text-right">
             <button type="submit" class="btn btn-primary btn-lg">Submit</button>
         </div>

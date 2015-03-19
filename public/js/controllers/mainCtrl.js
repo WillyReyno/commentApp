@@ -33,7 +33,7 @@ angular.module('mainCtrl', [])
                         });
                 })
                 .error(function(data){
-                    console.log(data);
+                    //console.log(data);
                 });
         };
 
